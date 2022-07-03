@@ -1,0 +1,87 @@
+body {
+    background-color: #FFDEDE;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.contador__numeros {
+    font-size: 100px;
+    color: #EB4747;
+}
+
+.redes {
+    margin-top: 1em;
+    display: flex;
+    margin-right: 2em;
+}
+
+.icone__redes {
+    width: 80px;
+}
+
+.titulo__rodape {
+    margin: 3em 3em;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.rodape {
+    background-color: #EB4747;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #FF8B8B;
+    border-radius: 0.6em;
+    color: #FF8B8B;
+    cursor: pointer;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+.btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+
+.fourth {
+    border-color: #EB4747;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #EB4747 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #EB4747 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .fourth:hover {
+    background-position: 0;
+  }
